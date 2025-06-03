@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  color:red;
+}/* 1. Center the header */
+header {
+  text-align: center;
+}
+
+/* 2. Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* 3. Style the navigation links */
+nav a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+}
+
+/* Optional: center the nav bar itself */
+nav {
+  text-align: center;
+}
+
+/* 4. Style the image caption */
+figcaption {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/* 5. Style text within #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* 6. Make the #details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: #f0f0f0; /* or another color of your choice */
+}
+
+/* Clearfix for floated elements */
+#details::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
